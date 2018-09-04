@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">NoGeoLingo</string>
+
+    <string name="hint_name">Nombre</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_age">Edad</string>
+    <string name="info_text_genre">Género: </string>
+    <string name="f_genre">Femenino</string>
+    <string name="m_genre">Masculino</string>
+    <string name="register_button_text">Registrarme</string>
+    <string name="login_button_text">Iniciar Sesión</string>
+    <string name="logout_button_toolbar">Cerrar Sesión</string>
+    <string name="help_button_toolbar">Ayuda</string>
+    <string name="home_button_toolbar">Volver al menú</string>
+    <string name="test_button_toolbar">Evaluar</string>
+    <string name="toast_text_signup_correct">Te has registrado con éxito</string>
+    <string name="toast_text_signup_failure">No se ha podido registrar este usuario</string>
+    <string name="toast_text_empty_field">Todos los campos son obligatorios</string>
+    <string name="toast_text_invalidate_age">La edad introducida no es válida</string>
+    <string name="toast_text_invalidate_email">El email introducido no es válido</string>
+
+    <string name="evaluation_button">Evaluar</string>
+    <string name="learn_button">Aprender</string>
+    <string name="localize_button">Localízame</string>
+    <string name="current_location">Tu ubicación actual:</string>
+    <string name="info_about">Sobre esta app</string>
+
+    <string name="pick_location">Elige tu ubicación</string>
+    <string name="main_help_info">NoGeoLingo es una aplicación para aprender vocabulario.
+    Comienza aprendiendo los conceptos disponibles mediante imágenes y cuando estés entrenado/a ¡evalúate!</string>
+    <string name="dialog_main_help_positive_button">¡Entendido!</string>
+    <string name="evaluation_help_info">Escribe el nombre del concepto mostrado por las imágenes y comprueba lo que has aprendido.</string>
+    <string name="learn_help_info">Intenta pensar en el nombre del concepto a la que se corresponde la imagen. Para mostrarlo toca encima de ella.
+    Indícale a la aplicación si ya conocías o no esta palabra para que te la muestre con más o menos frecuencia.</string>
+    <string name="help_title">Ayuda</string>
+
+    <string name="end_evaluation_text">La evaluación ha terminado ¡Enhorabuena!</string>
+    <string name="end_evaluation_positive_button">Volver</string>
+    <string name="alert_evaluation_text">Para poder evaluarte necesitas aprender al menos 7 palabras en este contexto</string>
+    <string name="alert_evaluation_positive_button">Entendido</string>
+    <string name="toast_text_empty_input_name_evaluation">Escribe el nombre del concepto</string>
+
+    <string name="end_learn_text">Has aprendido todas las palabras disponibles en este contexto</string>
+    <string name="end_learn_positive_button">Evaluar</string>
+    <string name="end_learn_negative_button">Volver al menú</string>
+
+
+</resources>
