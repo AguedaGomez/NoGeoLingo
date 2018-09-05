@@ -59,11 +59,17 @@
             android:ems="10"
             android:fontFamily="@font/convergence"
             android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/convergence"
+            android:text="TextView"
             android:textAlignment="center"
-            android:textColorHighlight="@color/colorPrimary"
-            android:textColorLink="@color/colorPrimary"
-            android:textCursorDrawable="@color/colorAccent"
-            android:textSelectHandle="@color/colorAccent" />
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/correctName"

@@ -228,6 +228,8 @@ public class LearnActivity extends AppCompatActivity implements Observer{
            currentOrderedConcept.setStrength(0);
        }
        currentOrderedConcept.setPosition(currentPosition + (int)Math.pow(2, currentStrenght+1));
+       if( currentOrderedConcept.getName() == Collections.min(orderedConceptsList).getName())
+           currentOrderedConcept.setPosition(orderedConceptsList.get(1).getPosition() + 2);
        currentOrderedConcept.setShown(true);
        Log.d("test", "fin de updateConceptPosition");
    }
