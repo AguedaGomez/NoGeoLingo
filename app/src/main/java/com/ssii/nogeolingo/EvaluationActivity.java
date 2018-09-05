@@ -122,6 +122,12 @@ public class EvaluationActivity extends AppCompatActivity implements Observer {
         toolbar = findViewById(R.id.mtoolbar);
         toolbar.setNavigationOnClickListener(view -> createAlertDialog());
         toolbar.setNavigationIcon(R.drawable.ic_arrow_back_white_24dp);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                createAlertDialog();
+            }
+        });
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("");
 
