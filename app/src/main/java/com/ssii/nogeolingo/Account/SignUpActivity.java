@@ -100,10 +100,12 @@ public class SignUpActivity extends AppCompatActivity {
             Toast.makeText(this, getString(R.string.toast_text_empty_field), Toast.LENGTH_SHORT).show();
 
         }
-        else if (Integer.valueOf(_age) < 8 && Integer.valueOf(_age) > 70)
+        else if (Integer.valueOf(_age) < 8 || Integer.valueOf(_age) > 70)
             Toast.makeText(this, getString(R.string.toast_text_invalidate_age), Toast.LENGTH_SHORT).show();
-        else if (!_email.contains("@") && !_email.contains("."))
+        else if (!_email.contains("@") || !_email.contains("."))
             Toast.makeText(this, getString(R.string.toast_text_invalidate_email), Toast.LENGTH_SHORT).show();
+        else if (_password.length() < 6)
+            Toast.makeText(this, getString(R.string.toast_text_invalidate_password), Toast.LENGTH_SHORT).show();
         else
             result = true;
         return result;
